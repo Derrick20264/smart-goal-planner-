@@ -1,0 +1,54 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "title": "Buy a Laptop",
+      "category": "Tech",
+      "targetAmount": 1200,
+      "savedAmount": 300,
+      "deadline": "2025-10-01"
+    },
+    {
+      "id": 2,
+      "title": "Emergency Fund",
+      "category": "Savings",
+      "targetAmount": 500,
+      "savedAmount": 100,
+      "deadline": "2025-08-15"
+    },
+    {
+      "id": 3,
+      "title": "Trip to Mombasa",
+      "category": "Travel",
+      "targetAmount": 750,
+      "savedAmount": 250,
+      "deadline": "2025-12-20"
+    }
+  ],
+  "deposits": [
+    {
+      "id": 1,
+      "goalId": 1,
+      "amount": 100,
+      "date": "2025-07-10"
+    },
+    {
+      "id": 2,
+      "goalId": 2,
+      "amount": 50,
+      "date": "2025-07-18"
+    },
+    {
+      "id": 3,
+      "goalId": 3,
+      "amount": 200,
+      "date": "2025-07-05"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Tech" },
+    { "id": 2, "name": "Savings" },
+    { "id": 3, "name": "Travel" },
+    { "id": 4, "name": "Education" }
+  ]
+}

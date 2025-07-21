@@ -1,4 +1,3 @@
-import React from 'react'
 import React, { useState } from "react";
 import GoalForm from "./components/GoalForm";
 import GoalList from "./components/GoalList";
