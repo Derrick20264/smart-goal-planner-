@@ -1,1 +1,16 @@
-{}
+{
+  "goals": [
+    {
+      "id": 1,
+      "title": "Save for Laptop",
+      "amount": 800,
+      "progress": 150
+    },
+    {
+      "id": 2,
+      "title": "Emergency Fund",
+      "amount": 500,
+      "progress": 200
+    }
+  ]
+}
