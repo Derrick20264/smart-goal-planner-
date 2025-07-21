@@ -1,13 +1,57 @@
-# React + Vite
+# Smart Goal Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based application for managing and tracking personal savings goals. Built with Vite, deployed on Netlify (frontend), and powered by a JSON server on Render (backend).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## --- Live Demo
 
-## Expanding the ESLint configuration
+- **Frontend (Netlify)**: https://superlative-dasik-ca1372.netlify.app/ 
+- **Backend (Render JSON Server)**: https://smart-goal-planner-lz9m.onrender.com/goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# smart-goal-planner-
+---
+
+## --- Features
+
+- View a list of savings goals
+- Add new financial goals
+- Track goal progress visually
+- Ready for full CRUD functionality
+
+---
+
+## --- Tech Stack
+
+- **Frontend**: React + Vite
+- **Backend**: JSON Server hosted on Render
+- **Deployment**: Netlify (frontend) + Render (backend)
+- **Styling**: CSS
+
+---
+
+## --- Project Structure
+smart-goal-planner/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── GoalForm.jsx
+│ │ └── GoalList.jsx
+│ └── App.jsx
+├── db.json
+├── package.json
+├── vite.config.js
+└── README.md
+ 
+## --- Install Dependencies 
+npm install
+
+## --- start the Fronted 
+Npm run dev 
+
+## --- Author 
+Derrick Wachira 
+GitHub: https://github.com/Derrick20264
+
+## --- License
+This project is licensed under the MIT License.
+
